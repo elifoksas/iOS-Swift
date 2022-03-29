@@ -34,6 +34,10 @@
                                 <state key="normal" title="+">
                                     <color key="titleColor" systemColor="systemIndigoColor"/>
                                 </state>
+                                <buttonConfiguration key="configuration" style="gray" title="+">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                    <color key="baseForegroundColor" systemColor="systemIndigoColor"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="toplamaTiiklandi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="edt-7n-TXc"/>
                                 </connections>
@@ -48,12 +52,16 @@
                                 <state key="normal" title="-">
                                     <color key="titleColor" systemColor="systemIndigoColor"/>
                                 </state>
+                                <buttonConfiguration key="configuration" style="gray" title="-">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                    <color key="baseForegroundColor" systemColor="systemIndigoColor"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="cikarmaTiklandi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LrA-Wt-Dmb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcT-w1-f8c">
-                                <rect key="frame" x="214" y="297" width="60" height="52"/>
+                                <rect key="frame" x="214" y="298" width="60" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="9yr-pf-R2e"/>
                                 </constraints>
@@ -62,17 +70,25 @@
                                 <state key="normal" title="*">
                                     <color key="titleColor" systemColor="systemIndigoColor"/>
                                 </state>
+                                <buttonConfiguration key="configuration" style="gray" title="*">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                    <color key="baseForegroundColor" systemColor="systemIndigoColor"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="carpmaTiklandi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="33U-mR-ava"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJZ-7f-uTO">
-                                <rect key="frame" x="310" y="297" width="60" height="52"/>
+                                <rect key="frame" x="310" y="298" width="60" height="50"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="/">
                                     <color key="titleColor" systemColor="systemIndigoColor"/>
                                 </state>
+                                <buttonConfiguration key="configuration" style="gray" title="/">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                    <color key="baseForegroundColor" systemColor="systemIndigoColor"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="bolmeTiklandi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ERC-9H-vu8"/>
                                 </connections>

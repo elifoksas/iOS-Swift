@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         if let ilkSayi = Int(firstText.text!){
             if let ikinciSayi = Int(secondText.text!){
                 sonuc = ilkSayi + ikinciSayi
-                sonucLabel.text = "Sonuç " + String(sonuc)
+                sonucLabel.text = "Sonuç: " + String(sonuc)
             }
         }
     }
@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         if let ilkSayi = Int(firstText.text!){
             if let ikinciSayi = Int(secondText.text!){
                 sonuc = ilkSayi - ikinciSayi
-                sonucLabel.text = "Sonuç " + String(sonuc)
+                sonucLabel.text = "Sonuç: " + String(sonuc)
             }
         }
     }
@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         if let ilkSayi = Int(firstText.text!){
             if let ikinciSayi = Int(secondText.text!){
                 sonuc = ilkSayi * ikinciSayi
-                sonucLabel.text = "Sonuç " + String(sonuc)
+                sonucLabel.text = "Sonuç: " + String(sonuc)
             }
         }
     }
@@ -52,7 +52,7 @@ class ViewController: UIViewController {
         if let ilkSayi = Int(firstText.text!){
             if let ikinciSayi = Int(secondText.text!){
                 sonuc = ilkSayi / ikinciSayi
-                sonucLabel.text = "Sonuç " + String(sonuc)
+                sonucLabel.text = "Sonuç: " + String(sonuc)
             }
         }
     }
