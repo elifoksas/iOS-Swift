@@ -20,7 +20,6 @@ class ViewController: UIViewController {
         
         myLabel.text = "Turkey"
         
-        
     }
 }
 
