@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         
     }
 
+    
     @IBAction func toplamaTiiklandi(_ sender: Any) {
         
         if let ilkSayi = Int(firstText.text!){
