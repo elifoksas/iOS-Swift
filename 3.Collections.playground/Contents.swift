@@ -66,7 +66,6 @@ let birlesimSeti = birinciSet.union(ikinciSet)
 //
 //DICTIONARY
 //key-value pairing -> anahtar kelime-değer eşleşmesi
-
 let meyveDizisi = ["armut","muz","elma","karpuz"]
 let kaloriDizisi = [100,150,120,300]
 
