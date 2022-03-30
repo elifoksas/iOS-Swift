@@ -57,7 +57,7 @@ var kullaniciNumarasi = "elif"
 //var sonuc = Int(kullaniciNumarasi)! * 5  //değerin kesin olarak int'e dönüştüreleceğini '!' ile belirttik.
 
 
-var sonuc = (Int(kullaniciNumarasi) ?? 1) * 5  //kullaniciNumarasi'ni int'e çevirmeye çalış. yapamazsan 1 al.
+var sonuc = (Int(kullaniciNumarasi) ?? 1) * 5  //kullaniciNumarasi'ni int'e çevirmeye çalış.yapamazsan 1 al.
 
 
 if let yeniSonuc = Int(kullaniciNumarasi){ //kullaniciNumarasi int'e çevirilebilirse yap.
