@@ -52,6 +52,7 @@ benimStringNumaram = String(myNewNumber)
 benimStringNumaram + "10"
 
 
+
 let stringNo = "400"
 let integerString = Int(stringNo)
 integerString! + 20
