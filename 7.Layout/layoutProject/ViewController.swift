@@ -11,6 +11,7 @@ class ViewController: UIViewController {
 
     var BenimDegiskenim = 4
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
